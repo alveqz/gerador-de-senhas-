@@ -1,4 +1,4 @@
-root{
+:root{
 --branco: white;
 --cor-de-fundo: #00162E;
 --fundo-senha: #00244D;
@@ -123,10 +123,20 @@ bottom: 30px;
 .medio{
 background-color: yellow;
 height: 30px;
-width: 33%;
+width: 50%;
 position: relative;
 bottom: 30px;
 }
+
+.forte{
+background-color: green ;
+height: 30px;
+width: 100%;
+position: relative;
+bottom: 30px;
+}
+
+
 
 
 @media screen and (min-width: 768px) {
